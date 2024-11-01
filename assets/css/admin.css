@@ -1,0 +1,74 @@
+/* Product Metabox */
+.inspire-panel p:after,
+.inspire-panel .form-field:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+.inspire-panel p,
+.inspire-panel .form-field,
+.inspire-panel div.hard-candy {
+	margin: 9px 0;
+	padding: 5px 3px;
+}
+
+.inspire-panel label {
+	float: left;
+	line-height: 24px;
+	margin-right: 10px;
+	padding: 0;
+	width: 150px;
+}
+
+.inspire-panel .form-field input,
+.inspire-panel .form-field textarea {
+	float: left;
+	width: 50%;
+}
+
+.inspire-panel input.short,
+.inspire-panel textarea.short {
+	width: 20%;
+}
+
+.inspire-panel .lonely label {
+	float: none;
+	width: auto;
+}
+
+.inspire-panel .lonely input {
+	float: none;
+	width: auto;
+}
+
+.inspire-panel .options-group {
+	border-bottom: 1px solid #DFDFDF;
+	border-top: 1px solid #FFFFFF;
+}
+
+.inspire-panel .options-group:first-child {
+	border-top: 0;
+}
+
+.inspire-panel .options-group:last-child {
+	border-bottom: 0;
+}
+
+.inspire-panel .options-group:last-child p {
+	margin-bottom: 0;
+}
+
+.wc-metaboxes-wrapper .wc-metabox.woocommerce_variation h3.gielda-variant {
+	padding: .5em .75em 0em 0em!important;
+	font-size: 1em!important;
+}
+.forminp.forminp-text span {
+
+    width: 100% !important;
+    max-width: 600px !important;
+
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow b { right:10px; left:inherit !important}
